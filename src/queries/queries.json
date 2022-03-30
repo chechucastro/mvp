@@ -1,0 +1,14 @@
+{
+	"users": {
+	  "getUsers" : "http://178.63.13.157:8090/mock-api/api/users"
+	},
+	"projects": {
+	  "getProjects" : "http://178.63.13.157:8090/mock-api/api/projects"
+	},
+	"gateways": {
+	  "getGateways" : "http://178.63.13.157:8090/mock-api/api/gateways"
+	},
+	"reports": {
+	  "postReports" : "http://178.63.13.157:8090/mock-api/api/report"
+	}
+}

@@ -1,0 +1,86 @@
+// Toolbar top area
+.bb--separator {
+	border-bottom:2px solid #F3F6F9;
+}
+// Side nav area
+.v-navigation-drawer__border {
+  width: 0px !important;
+}
+.v-toolbar__content, .v-toolbar__extension {
+  // padding: 4px !important;
+}
+// Common
+p, span {
+	color: #005B96;
+}
+// Selects
+:root {
+  --tourquoise: #1BC5BD;
+  --darktourquoise: #1BC5BD;
+}
+select, .v-text-field fieldset, .v-text-field .v-input__control {
+  /* Reset Select */
+  appearance: none;
+  outline: 0;
+  border: 0;
+  box-shadow: none;
+  /* Personalize */
+  flex: 1;
+  padding: 0 1em;
+  color: #fff;
+  background-color: var(--darktourquoise) !important;
+  background-image: none;
+  cursor: pointer;
+	font-size: 14px !important;
+}
+/* Remove IE arrow */
+select::-ms-expand {
+  display: none;
+}
+/* Custom Select wrapper */
+.select {
+  position: relative;
+  display: flex;
+  width: 145px;
+  height: 32px;
+  border-radius: .25em;
+  overflow: hidden;
+}
+/* Arrow */
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.5em;
+  background-color: #1BC5BD;
+  transition: .25s all ease;
+  pointer-events: none;
+  color: white;
+}
+/* Transition */
+.select:hover::after {
+  color: #fff;
+}
+.txt--p {
+  color:#7E8299;
+}
+// Inputs datepicker
+.theme--light.v-text-field > .v-input__control > .v-input__slot:before {
+  border: none;
+}
+.theme--light.v-input input {
+  color: white !important;
+}
+.controls .v-icon.v-icon::before {
+  color: white !important;
+}
+input {
+	font-size: 14px !important;
+}
+.custom-placeholder-color input::placeholder {
+  color: white !important;
+}
+.v-btn {
+	letter-spacing: normal !important;
+}
